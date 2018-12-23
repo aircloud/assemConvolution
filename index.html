@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>AssemblyDemo</title>
     <style>
         html, body { height: 100%; margin: 0; overflow: hidden; color: #fff; background: #111; font-family: sans-serif; }
         body { border-top: 2px solid #12b7f5; }
@@ -176,7 +176,6 @@
     let memSize = width * height * 4 * 2 * 2 + 9 * 4 * 2; // rgba for one pixel
     // TODO 这里需要乘以2，原因暂时未知
 
-
     /**事件绑定**/
     let matrix = document.getElementById('matrix');
     [...matrix.children].forEach((input) => {
@@ -196,7 +195,6 @@
             initCanvas();
         })
     });
-
 
     function initListContainer(){
         let fragment = document.createDocumentFragment();
@@ -279,7 +277,6 @@
                     },
                     Math
                 })).then(module => {
-
                 let exports = module.instance.exports;
                 let mem = new Uint32Array(memory.buffer);
                 let imageData = ctx.getImageData(0, 0, width, height);

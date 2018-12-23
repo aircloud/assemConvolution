@@ -1,4 +1,4 @@
-## 使用 WebAssembly 进行图片卷积
+## 使用 WebAssembly 进行图像卷积
 
 [LIVE DEMO](http://assembly.niexiaotao.com)
 
