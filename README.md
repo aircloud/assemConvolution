@@ -1,5 +1,7 @@
 ## 使用 WebAssembly 进行图片卷积
 
+[LIVE DEMO](http://assembly.niexiaotao.com)
+
 直接访问 index.html 即可查看效果。
 
 ### 修改 AssemblyScript 文件
